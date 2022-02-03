@@ -1,0 +1,141 @@
+:root{
+    --COLOR: #FFF;
+    --MARK: #5865F2;
+}
+
+*{
+    /* border & padding входят в расчёт размера */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    //border: 1px solid purple;
+}
+
+/* ИМПОРТ ШРИФТА */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //font-family: 'Oswald', sans-serif;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {width: 8px}
+::-webkit-scrollbar-track {background: #18191d}
+::-webkit-scrollbar-thumb {background: #3b4146}
+::-webkit-scrollbar-thumb:hover {background: #474e54}
+
+body{
+    color: var(--COLOR);
+    font-family: cursive;
+    background-color: #343434;
+    padding: 8px;
+}
+
+a{
+    color: var(--COLOR);
+    
+}
+
+h3{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+img{
+    padding: 10px 0 0 0;
+    max-width: 100%;
+}
+
+/* ВЫРАВНИВЫНИЕ ИКОНКИ ПО ВЕРТИКАЛИ */
+span {vertical-align: middle}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+
+.c{
+    display: inline-flex;
+}
+
+.cut{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.box{
+    border-bottom: 1px solid #505050;
+    margin: 10px 0;
+    align-items: baseline
+
+}
+.box:last-child{ border-bottom: none; }
+
+.zyxText{
+    margin: auto 0;
+}
+
+.box > div {
+    display: inline-flex;
+    margin: 0 0 10px 0;
+}
+.box > h3, .box > div > div > div{ margin: 0 0 10px 0; }
+
+.code{
+    color: var(--COLOR);
+    border-radius: 4px;
+    background: var(--MARK);
+    display: inline-block;
+    padding: 6px;
+}
+.note{
+    display: inline-block
+}
+
+/* BLENDER GUI */
+.t {
+    font-size: 10px;
+    padding: 0 10px;
+    font-family: sans-serif;
+}
+.t > div > h3{
+    padding: 4px 0;
+    text-transform: none;
+    font-weight: 300;
+}
+.t > div > #panel{
+    width: 180px;
+    border-radius: 4px;
+    background: #595959;
+}
+.t > div > #panel div{
+    padding: 4px 14px;
+    border-bottom: 1px solid #444444;
+}
+
+

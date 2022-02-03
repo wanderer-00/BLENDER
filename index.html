@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BLENDER</title>
+    <!-- ИМПОРТ ШРИФТА -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- ПОДКЛЮЧЕНИЕ СТИЛЕЙ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ПОДКЛЮЧЕНИЕ FAVICON -->
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <div class="cut">      
+        <h1>BLENDER:</h1>
+        <!-- Официальный сайт -->
+        <a href="https://www.blender.org/" class='code'>BLENDER.org</a>
+        <a href="https://www.blender.org/download/" class='code'>
+            <span class="material-icons">download</span>
+            BLENDER
+        </a>
+  
+<!--        <img src="IMGs/0.png" alt=""> -->
+
+        <!-- ОСИ -->
+        <div class="box">
+            <h3>ОСи:</h3>
+            <div id="box">
+                <div class="zyx">
+                    <img src="IMGs/zyx.png" alt="">
+                </div>
+                <div class="zyxText">
+                    z - вертикальная ось<br>
+                    y - горизонтальная ось<br>
+                    x - горизонтальная ось<br>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ПРОЕКЦИИ -->
+        <div class='box'>
+            <h3>Проекции:</h3>
+            <div style='display: flex'>
+                <div id='c'>
+                    <div class="code">NUM 1</div>
+                    <div class="note"> - спереди</div><br>
+                    <div class="code">NUM 3</div>
+                    <div class="note"> - сбоку</div><br>
+                    <div class="code">NUM 7</div>
+                    <div class="note"> - сверху</div>
+                </div>
+                <div id='c'>
+                    <div class="code">CTRL + NUM 1</div>
+                    <div class="note"> - сзади</div><br>
+                    <div class="code">CTRL + NUM 3</div>
+                    <div class="note"> - с другого боку</div><br>
+                    <div class="code">CTRL + NUM 7</div>
+                    <div class="note"> - снизу</div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="cluster" id='cluster'></div>
+
+        <div>
+            <div>
+                <img src="IMGs/1.png" alt="">
+            </div>
+            <div class="t">
+                <div>
+                    <h3>Размеры:</h3>
+                    <div id="panel">
+                        <div class="">X</div>
+                        <div class="">Y</div>
+                        <div class="">Z</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
